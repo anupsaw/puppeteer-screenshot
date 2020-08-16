@@ -16,7 +16,8 @@
   "scripts": {
     "start": "ts-node main.ts",
     "build": "tsc -p build/tsconfig.json",
-    "publish": "npm publish dist --access public "
+    "publish": "npm publish dist --access public",
+    "setup:hooks": "git config core.hooksPath ./tools/git-hooks"
   },
   "author": "",
   "license": "ISC"
