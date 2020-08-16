@@ -1,0 +1,23 @@
+{
+  "name": "@sahaz/puppeteer-screenshot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "docx": "^5.3.0",
+    "puppeteer": "^5.2.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.1"
+  },
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc -p build/tsconfig.json",
+    "publish": "npm publish dist --access public "
+  },
+  "author": "",
+  "license": "ISC"
+}
